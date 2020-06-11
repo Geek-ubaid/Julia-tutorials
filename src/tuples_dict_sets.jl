@@ -35,3 +35,19 @@ println()
 for (key,value) in dict_1
     println(key, " : ", value)
 end
+
+## sets in julia [mutable, homogeneous]
+
+set_1 = Set(["hello", "world", "julia"])
+println(set_1)
+
+## pushing element to set
+push!(set_1, "lang")
+
+## Set functions
+set_2 = Set(["Ubaid Usmani"])
+
+println(union(set_1, set_2))
+println(intersect(set_1, set_2))
+println(setdiff(set_1, set_2))
+

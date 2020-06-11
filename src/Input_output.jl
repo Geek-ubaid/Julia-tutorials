@@ -1,6 +1,10 @@
 using Printf
 using Statistics
 
+## taking input
+print("Enter value : ")
+input_value = readline() 
+println(input_value)
 ## Dynamically typed ,no datatype to be defined
 
 input_var = "text"

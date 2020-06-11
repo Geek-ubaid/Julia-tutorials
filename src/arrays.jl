@@ -87,3 +87,8 @@ push!(list_comp, 8)
 ## Generating random number list 
 rand_list = rand(0:10 ,2,2) # generated 2d list of random num betweem 0 to 10
 println(rand_list)
+println()
+
+## generating arrays from string
+string_arr = split("hello world")
+println(string_arr)
